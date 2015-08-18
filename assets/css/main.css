@@ -9,7 +9,14 @@
     text-align:center;
 }
 
-#profilepic {
+.jumbotron {
+  background-image:url('assets/images/profilepic.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.profilepic {
   width: 600px;
   position: fixed;
   z-index: -10;
