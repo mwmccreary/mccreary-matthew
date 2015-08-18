@@ -8,3 +8,7 @@
 .nav-tabs, .nav-pills {
     text-align:center;
 }
+
+.profilepic {
+  background-image: url('assets/images/profilepic.jpg');
+}
