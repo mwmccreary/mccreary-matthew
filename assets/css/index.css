@@ -24,3 +24,8 @@
 #aboutme h5 {
   font-style: italic;
 }
+
+#profilepic img {
+  max-width: 100%;
+  height: auto;
+}

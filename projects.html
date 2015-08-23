@@ -39,9 +39,9 @@
           <!--<ul class="nav navbar-nav navbar-right">-->
             <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Contact<span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="assets/Aaron%20ShangWei%20Young%20Resume%20081315.pdf">Resume</a></li>
-                <li><a href="https://github.com/aarony422">GitHub</a></li>
-                <li><a href="https://www.linkedin.com/in/aaronswyoung">LinkedIn</a></li>
+                <li><a href="assets/Aaron%20ShangWei%20Young%20Resume%20081315.pdf" target="_blank">Resume</a></li>
+                <li><a href="https://github.com/aarony422" target="_blank">GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/aaronswyoung" target="_blank">LinkedIn</a></li>
                 <li><a href="mailto:syoung@oberlin.edu">Email</a></li>
               </ul>
             </li>
@@ -51,6 +51,62 @@
     </div>
     <!-- Content starts here-->
     <div class="jumbotron" style="text-align: center;"><h1><span class="glyphicon glyphicon-folder-open"></span> Projects</h1></div>
+
+    <!-- Toggle pill -->
+    <div class="container">
+      <ul class="nav nav-pills">
+        <!--<li class="active"><a data-toggle="pill" href="#featured">Featured</a></li>-->
+        <li class="active"><a data-toggle="pill" href="#personal">Personal</a></li>
+        <!--<li><a data-toggle="pill" href="#work">Work</a></li>-->
+        <li><a data-toggle="pill" href="#school">School</a></li>
+      </ul>
+
+    <!--- Toggle pill tab content -->
+      <div class="tab-content">
+        <!--<div id="featured" class="tab-pane fade in active">
+          <h3>Featured Projects</h3>
+        </div> -->
+        <div id="personal" class="tab-pane fade in active">
+          <h3>Personal Projects</h3>
+
+          <!-- personal website -->
+          <div id="project">
+            <div class="row">
+              <div class="col-xs-6">
+                <div id="projectpic"><img src="assets/images/personalwebsitepic.png"></div>
+              </div>
+              <div class="col-xs-6">
+                <div id="projecttitle">Personal Website</div>
+                <div id="projectduration">August 2015 - present</div>
+                <br>
+                <div id="projectdescription">This is my personal website, which is still a work in progress.
+                I use HTML, CSS and Bootstrap. This website is currently hosted on GitHub Pages.</div>
+                <br>
+                <div class="row">
+                  <div class="col-xs-6">
+                    <div id="projectlink"><a href="http://www.aaronwyoung.com" target="_blank">Website</a></div>
+                  </div>
+                  <div class="col-xs-6">
+                    <div id="projectlink"><a href="https://github.com/aarony422/aarony422.github.io" target="_blank">GitHub</a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end of personal website -->
+
+        <!--<div id="work" class="tab-pane fade">
+          <h3>Work Projects</h3>
+        </div> -->
+        <div id="school" class="tab-pane fade">
+          <h3>School Projects</h3>
+          <div id="project">
+            <div id="projecttitle">School Projects Coming Soon!</div>
+          </div>
+        </div>
+      </div>
+    </div>
 
   </body>
 </html>
