@@ -26,8 +26,12 @@
 
 }
 
+#projectlinkrow {
+  display: inline block;
+}
+
 #projectlink {
   background: rgba(96, 96, 96, 0.3);
-  /*padding: 5px; */
+  padding: 5px;
   text-align: center;
 }
