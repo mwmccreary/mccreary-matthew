@@ -38,3 +38,23 @@
   border-width: 2px;
   border-color: rgba(0, 0, 0, 0.5);
 }
+
+/* nav-pill customizations */
+/* make the pill background color stay the same when hovering*/
+.brown li.active a,
+.brown li.active a:hover {
+  background-color: rgba(102, 153, 153, 1);
+}
+
+/* pill background color while selected */
+.nav-pills > li.active > a, li.nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus{
+  background-color: rgba(102, 153, 153, 1);
+
+}
+
+/* pill link text color */
+.nav-pills a {
+  color: rgba(102, 153, 153, 1);
+}
+
+/*rgba(202, 145, 88, 0.7)*/
