@@ -13,8 +13,9 @@
   font-weight: 700;
 }
 
-#jobemployer {
-
+#orgpic img {
+  max-width: 100%;
+  height: auto;
 }
 
 #orgduration {
