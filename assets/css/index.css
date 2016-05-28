@@ -5,14 +5,7 @@
 #aboutme {
   /*background-color: #A9A9A9;*/
   /*background: rgba(102, 153, 153, 0.3);*/
-  border-style:solid;
-  border-width: 15px;
-  border-color: rgba(102, 153, 153, 0.3);
-  border-radius: 5px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 20px;
-  padding-top: 5px;
+  padding: 15px;
   height: 100%;
   width: 100%;
 }
@@ -27,5 +20,5 @@
 
 #profilepic img {
   max-width: 100%;
-  height: auto;
+  border-radius: 50%;
 }
