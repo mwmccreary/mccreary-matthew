@@ -57,4 +57,13 @@
   color: rgba(102, 153, 153, 1);
 }
 
+
+@media only screen and (max-width: 566px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+
+}
+
+
 /*rgba(202, 145, 88, 0.7)*/
