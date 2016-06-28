@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="assets/css/custom.css">
     <link rel="stylesheet" href="assets/css/index.css"/>
 
+    <!-- Icons -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
@@ -34,16 +37,21 @@
     <!-- End of Google Analytics -->
 
   </head>
-  <div class="wrapper">
   <body>
+    <div class="wrapper">
 
     <!-- Navigation tab bar -->
     <div class="navbar navbar-default navbar-static-top">
       <div class="container-fluid">
         <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
           <a class="navbar-brand" href="index.html" class="pull-left">Aaron Young</a>
         </div>
-        <div>
+        <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav">
             <li class="active"><a href="index.html">Home</a></li>
             <li><a href="work.html">Work</a></li>
@@ -65,7 +73,7 @@
     </div>
 
     <!-- Content starts here-->
-    <div class="container">
+    <div class="container-fluid">
       <div id="aboutme">
         <div class="row">
           <div class="col-xs-5">
