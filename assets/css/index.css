@@ -7,9 +7,10 @@
 #aboutme {
   /*background-color: #A9A9A9;*/
   /*background: rgba(102, 153, 153, 0.3);*/
-  padding: 15px;
+  padding: 10% 15px 15px 15px;
   height: 100%;
   width: 100%;
+
 }
 
 #aboutme h1 {
@@ -21,7 +22,8 @@
 }
 
 #profilepic img {
-  max-width: 70%;
+  width: 213px;
+  height: 213px;
   border-radius: 50%;
   display: block;
   margin: auto;
