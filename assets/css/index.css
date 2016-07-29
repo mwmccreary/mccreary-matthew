@@ -1,12 +1,35 @@
-@import url("footer.css");
+.navbar {
+  background: none !important;
+  border: 0 !important;
+}
 
+.nav .active a {
+  background: blue !important;
+}
+
+.testdivs {
+  height: 1000px;
+  background: pink;
+  margin-top: 10px;
+  padding-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*
 .container img {
   border-radius: 5px;
 }
 
 #aboutme {
-  /*background-color: #A9A9A9;*/
-  /*background: rgba(102, 153, 153, 0.3);*/
   padding: 10% 15px 15px 15px;
   height: 100%;
   width: 100%;
@@ -30,6 +53,7 @@
 }
 
 
+
 @media only screen and (max-width: 768px) {
     [class*="col-"] {
         width: 100%;
@@ -49,3 +73,5 @@
       padding: 0px 0px 40px 40px;
     }
 }
+
+*/
