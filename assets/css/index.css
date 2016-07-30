@@ -21,7 +21,7 @@
   font-style: italic;
 }
 
-#profilepic img {
+#profilepic {
   width: 213px;
   height: 213px;
   border-radius: 50%;
@@ -34,9 +34,7 @@
     [class*="col-"] {
         width: 100%;
     }
-    #profilepic img {
-      max-width: 40%;
-      border-radius: 50%;
+    #profilepic {
       display: block;
       margin: auto;
     }
