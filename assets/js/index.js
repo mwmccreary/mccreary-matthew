@@ -1,9 +1,17 @@
 $(document).ready(function () {
-  // $("#btn").on("click", displayText);
   $("#nav li a").on("click", navbarBtnClick);
+  $(document).on("click", closeToggle);
 });
 
-
+/* close toggle if it's open and clicked outside toggle */
+function closeToggle(event) {
+  var clickover = $(event.target);
+  var _opened = $(".navbar-collapse").hasClass("in");
+  // BUG: hasClass("navbar-toggle") doesn't quite work like it should
+  if (_opened === true && !clickover.hasClass("navbar-toggle")) {
+      $("button.navbar-toggle").click();
+  }
+}
 
 function navbarBtnClick(event) {
   // Make sure this.hash has a value before overriding default behavior

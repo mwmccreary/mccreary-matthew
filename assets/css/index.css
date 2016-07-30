@@ -1,77 +1,149 @@
+/* for testing purposes */
+
+
+.container-fluid {
+  padding: 0px !important;
+}
+
+/* navbar properties */
 .navbar {
-  background: none !important;
+  background-color: rgba(0,0,0,0.5) !important;
   border: 0 !important;
+  padding-top: 10px;
+
 }
 
+/* navbar nav space from right */
+.navbar-nav {
+  margin-right: 90px;
+}
+
+/* navbar nav individual spacing */
+.navbar-nav > li {
+  margin-left: 30px;
+}
+
+/* navbar active background properties */
 .nav .active a {
-  background: blue !important;
+  background: none !important;
+  border-bottom: 5px solid #9097DD;
 }
 
-.testdivs {
-  height: 1000px;
-  background: pink;
-  margin-top: 10px;
-  padding-top: 50px;
+.navbar-nav > .collapse in {
+  border-bottom: 0px !important;
 }
 
-
-
-
-
-
-
-
-
-
-
-/*
-.container img {
-  border-radius: 5px;
+/* navbar active text color */
+.navbar-nav > .active> a, .navbar-nav> li >a:hover, .navbar-nav>.active>a:focus {
+  color: #9097DD !important;
+  border-bottom: 5px solid #9097DD;
 }
 
-#aboutme {
-  padding: 10% 15px 15px 15px;
-  height: 100%;
-  width: 100%;
-
+/* section properties */
+.section {
+  height: 400px;
+  /* background: pink;  get rid of THISS */
 }
 
-#aboutme h1 {
-  font-weight: 600;
+/* navbar text properties */
+.navbar .nav > li > a {
+    color: white;
+    font-size: 15px;
+    font-weight: 100;
 }
 
-#aboutme h5 {
+/* toggle triple-bar color */
+.icon-bar {
+  color: white;
+}
+
+/* remove the border around toggle button */
+.navbar-toggle {
+  border: none;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white !important;
+}
+
+/* navbar brand properties */
+.navbar .navbar-brand {
+  color: white;
+  font-size: 25px;
+  padding-left: 30px;
+  font-weight: 100;
+}
+
+/* content */
+
+h1 {
+  font-size: 60px;
+  font-weight: 100;
+}
+
+h5 {
   font-style: italic;
+  font-weight: 100;
 }
 
-#profilepic img {
-  width: 213px;
+p {
+  font-size: 16px;
+}
+
+/* home section */
+#home {
+  /* background: #363D7B; */
+  color: white;
+  padding: 120px 60px 60px 60px;
+}
+
+.social-media-btns {
+  margin: 0px 10px 0px 0px;
+}
+
+#work {
+  padding: 120px 60px 60px 60px;
+}
+
+#profilepic {
   height: 213px;
+  width: 213px;
   border-radius: 50%;
-  display: block;
-  margin: auto;
+  float: right;
 }
-
 
 
 @media only screen and (max-width: 768px) {
     [class*="col-"] {
         width: 100%;
     }
-    #profilepic img {
-      max-width: 40%;
-      border-radius: 50%;
+
+    .section {
+      height: 630px;
+      /* background: pink; get rid of THISS */
+    }
+
+
+    #home {
+      /* background: #363D7B; */
+      color: white;
+      padding: 100px 25px 60px 25px;
+    }
+
+    #profilepic {
+      float: none;
       display: block;
       margin: auto;
     }
+
+    /* Replace pull-right with responsive pull when upgrade to Bootstrap 4 */
+
 
     h1, h5 {
       text-align: center;
     }
 
-    .blurb {
-      padding: 0px 0px 40px 40px;
+    #social-media {
+      text-align: center;
     }
 }
-
-*/
