@@ -35,6 +35,9 @@
         width: 100%;
     }
     #profilepic {
+      width: 213px;
+      height: 213px;
+      border-radius: 50%;
       display: block;
       margin: auto;
     }
